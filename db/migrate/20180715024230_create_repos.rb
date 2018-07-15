@@ -3,6 +3,7 @@ class CreateRepos < ActiveRecord::Migration[5.2]
     create_table :repos do |t|
       t.string :name
       t.string :open_issues
+      t.string :pulls_url
       t.timestamps
     end
   end

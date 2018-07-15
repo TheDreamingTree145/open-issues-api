@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 2018_07_15_024230) do
   create_table "repos", force: :cascade do |t|
     t.string "name"
     t.string "open_issues"
+    t.string "pulls_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
